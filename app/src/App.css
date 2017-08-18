@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #09140E;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.hero {
+  background: url('./pics/celticsCover.jpg') center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 1.1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 35px;
+}
+
+.filter-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.filter-opponent {
+  width: 300px;
+  height: 3vh;
+  border-radius: 3%;
+  font-size: 15px;
+}
+
+.filter-homeOrAway {
+  width: 300px;
+  height: 3vh;
+  margin-left: 5px;
+  border-radius: 3%;
+  font-size: 15px;
+}
+
+.filter-button {
+ margin-left: 20px;
+ width: 100px;
+ height: 3vh;
+ border-radius: 3%;
+ color: green;
+ background: white;
+ font-size: 13px;
+}
+
+.schedule-box1 {
+  background: white;
+  width: 60vw;
+  height: 135px;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20%;
+  border-radius: 2%;
+  
+}
+
+.home-away {
+  transform: rotate(270deg);
+  transform-origin: right top 0;
+  color: #323334;
+  margin-left: -50px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.logo {
+  background: url('./pics/cavs.gif') center no-repeat;;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 15px 80px;
+}
+
+.opponent-box1 {
+  width: 250px;
+  height: 100px;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.opponent-name {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 1px;
+  letter-spacing: 3px;
+  margin-bottom: 3px;
+  color: #323334;
+  ;
+}
+
+.opponent-arena {
+  font-size: 14px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 20px;
+  letter-spacing: .8px;
+  color: #505153;
+}
+
+.opponent-box2 {
+  width: 250px;
+  height: 100px;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+.tickets {
+  background-color: #128f38;
+  color: white;
+  height: 65px;
+  width: 120px;
+  border-radius: 6%;
+  margin-left: 94px;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  align-self: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
